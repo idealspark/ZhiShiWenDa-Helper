@@ -1,5 +1,5 @@
 # 百万英雄/冲顶大会/芝士超人 答题助手 瞬间打开百度
- 每当题目出来的时候按下回车键即可瞬间打开百度 
+ 每当题目出来的时候按下回车键即可瞬间打开百度,主要支持Android系统
  主要原理使用Android adb进行截图,截取题目,使用汉王OCR识别图片中的文字,在使用selenium
  打开百度.汉王云ocrAPI，参考了 [wuditken/MillionHeroes](https://github.com/wuditken/MillionHeroes) 项目
 
@@ -10,7 +10,7 @@
 
 # 使用步骤
 1. 安装python3.6
-2. pip install -r requirements.txt
+2. 在本项目根路径下执行 pip install -r requirements.txt
 3. 修改默认的配置文件config.py 中Chrome Driver的路径
  Chrome Driver 在lib有一份,需要设置存放的路径
 4. 修改配置文件config.py 中图片存放路径
@@ -18,6 +18,8 @@
 6. 把手机设为开发者模式,在电脑环境变量中添加adb路径,lib中有下载好的adb,调试好adb
 7. 每个手机像素不一样,在config文件中调整
 7. 启动项目 python helper.py 每当题目出来时按下回车键即可   
+
+#####  欢迎各位大佬贡献代码 
 
 # 效果图
 ![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo1.png)

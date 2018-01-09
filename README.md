@@ -9,10 +9,10 @@
 3. **python3.6**
 
 # 使用步骤
-1. 安装python3.6
+1. 安装python3.6 [python下载地址](https://www.python.org/downloads/)
 2. 在本项目根路径下执行 pip install -r requirements.txt
 3. 修改默认的配置文件config.py 中Chrome Driver的路径
- Chrome Driver 在lib有一份,需要设置存放的路径
+ Chrome Driver 在lib有一份,需要设置存放的路径 [driver下载地址](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 4. 修改配置文件config.py 中图片存放路径
 5. 如果汉王OCR无法使用,需要自己使用自己的code [汉王API](https://market.aliyun.com/products/57124001/cmapi011523.html?spm=5176.730005.0.0.B1mZNd#sku=yuncode552300000)
 6. 把手机设为开发者模式,在电脑环境变量中添加adb路径,lib中有下载好的adb,调试好adb

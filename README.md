@@ -27,3 +27,9 @@
 
 ### qq群:612045335
 ![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/qun.png)
+
+
+### 如果帮你通关了,欢迎打赏
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/zhifubao.png)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/weixin.png)
+

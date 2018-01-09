@@ -1,5 +1,5 @@
 # 百万英雄/冲顶大会/芝士超人 答题助手 瞬间打开百度
- 题目出来的时候瞬间打开百度
+ 题目出来的时候瞬间打开百度 本软件使用了汉王云ocrAPI，参考了 [wuditken/MillionHeroes](https://github.com/wuditken/MillionHeroes) 项目
 
 # 系统要求
 1. **谷歌浏览器**
@@ -18,8 +18,8 @@
 7. 启动项目 python helper.py 题目出来时按下回车键即可   
 
 # 效果图
-![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo1.png =300x200)
-![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo2.png =300x200)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo1.png)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo2.png)
 
 ### qq群:612045335
-![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/qun.png =300x200)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/qun.png)

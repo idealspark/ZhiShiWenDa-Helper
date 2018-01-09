@@ -1,5 +1,10 @@
 # 百万英雄/冲顶大会/芝士超人 答题助手 瞬间打开百度
+ 题目出来的时候瞬间打开百度
 
+# 系统要求
+1. **谷歌浏览器**
+2. **安卓手机**
+3. **python3.6**
 
 # 使用步骤
 1. 安装python3.6
@@ -7,12 +12,14 @@
 3. 修改默认的配置文件config.py 中Chrome Driver的路径
  Chrome Driver 在lib有一份,需要设置存放的路径
 4. 修改配置文件config.py 中图片存放路径
-5. 如果汉王OCR无法使用,需要自己使用自己的code
+5. 如果汉王OCR无法使用,需要自己使用自己的code [汉王API](https://market.aliyun.com/products/57124001/cmapi011523.html?spm=5176.730005.0.0.B1mZNd#sku=yuncode552300000)
 6. 把手机设为开发者模式,在电脑环境变量中添加adb路径,调试好adb
+7. 每个手机像素不一样,在config文件中调整
 7. 启动项目 python helper.py 题目出来时按下回车键即可   
 
 # 效果图
-![](./image/xiaoguo1 =300x200)
-![](./image/xiaoguo2 =300x200)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo1.png =300x200)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo2.png =300x200)
 
-q:2199128775
+### qq群:612045335
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/qun.png =300x200)

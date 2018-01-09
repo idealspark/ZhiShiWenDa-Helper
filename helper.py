@@ -19,15 +19,15 @@ while True:
 
   if not os.path.exists(config.image_directory):
     os.mkdir(config.image_directory)
-  #os.system("adb shell /system/bin/screencap -p /sdcard/screenshot.png")
-  #os.system("adb pull /sdcard/screenshot.png " + imagepath)
+  os.system("adb shell /system/bin/screencap -p /sdcard/screenshot.png")
+  os.system("adb pull /sdcard/screenshot.png " + imagepath)
 
   im = Image.open(imagepath)
   img_size = im.size
   w = im.size[0]
   h = im.size[1]
 
-  region = im.crop((90, 250, w - 70, 600))  # 裁剪的区域
+  region = im.crop((config.left, config.top, w - config.right, config.bottom))  # 裁剪的区域
   region.save(region_path)
 
   f = open(region_path, 'rb')

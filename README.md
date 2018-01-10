@@ -40,4 +40,4 @@
 2 寻找交流下一次网赚的机会,到时候可以一起做
 不管你是做什么的,只要有兴趣都可以加入,每个人都掌握有独一无二的资源,聚合在一起将产生无穷的能量
 
-![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/weixin.png)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/weixinqun.png)

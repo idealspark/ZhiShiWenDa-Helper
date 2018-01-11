@@ -1,14 +1,9 @@
-# 如果觉得过程太麻烦的伙伴,直接看效果图然后加入QQ群 今天下午会在群里发布安装更方便,功能更强大的版本
+# 直接加群,群里有更详细的使用说明
+#使用说明
 
-# 百万英雄/冲顶大会/芝士超人 答题助手 瞬间打开百度
- 每当题目出来的时候按下回车键即可瞬间打开百度,主要支持Android系统
- 主要原理使用Android adb进行截图,截取题目,使用汉王OCR识别图片中的文字,在使用selenium
- 打开百度.汉王云ocrAPI，参考了 [wuditken/MillionHeroes](https://github.com/wuditken/MillionHeroes) 项目
-
-# 系统要求
-1. **谷歌浏览器**
-2. **安卓手机一部 电脑一台**
-3. **python3.6**
+## 系统要求
+1. **安卓手机一部看直播**
+2. **电脑一台查看搜索结果**
 
 ### 使用步骤
 1. 安装python3.6 [python下载地址](https://www.python.org/downloads/)
@@ -27,5 +22,5 @@
 ![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo2.png)
 
 ### qq群:612045335
-![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/qun.png)
+![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/qun2.png)
 

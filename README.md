@@ -28,6 +28,6 @@
 ![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo1.png)
 ![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/xiaoguo2.png)
 
-### qq群:612045335
+### qq群:427054039
 ![](https://github.com/idealspark/ZhiShiWenDa-Helper/blob/master/image/qun2.png)
 

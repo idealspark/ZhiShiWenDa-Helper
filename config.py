@@ -1,10 +1,9 @@
 # -*- coding:utf-8 -*-
 
-image_directory = "D:/screenshots/"
+app_id = "10661627"
+app_key = "h5xcL0m4TB8fiiFWoysn7uxt"
+app_secret = "HGA1cgXzz80douKQUpII7K77TYWSGcfW"
 
-driver_location = "D:\chromedriver_win32\chromedriver.exe"
-
-appcode = '9fdc5f6373ad4c0b8829d8d1a3b23b73'
 
 # 截取题目
 left = 90 # 距离左边的像素

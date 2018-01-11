@@ -1,7 +1,10 @@
-import requests, base64, json, os, time,config
+import requests, base64, json, os, time,config,baiduocr
 from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+
+image_directory = "D:/screenshots/"
+driver_location = r"D:\SoftwareInstall\chromedriver_win32\chromedriver.exe"
 
 driver = webdriver.Chrome(config.driver_location)
 # 访问百度
@@ -19,8 +22,8 @@ while True:
 
   if not os.path.exists(config.image_directory):
     os.mkdir(config.image_directory)
-  os.system("adb shell /system/bin/screencap -p /sdcard/screenshot.png")
-  os.system("adb pull /sdcard/screenshot.png " + imagepath)
+  #os.system("adb shell /system/bin/screencap -p /sdcard/screenshot.png")
+  #os.system("adb pull /sdcard/screenshot.png " + imagepath)
 
   im = Image.open(imagepath)
   img_size = im.size
@@ -30,29 +33,10 @@ while True:
   region = im.crop((config.left, config.top, w - config.right, config.bottom))  # 裁剪的区域
   region.save(region_path)
 
-  f = open(region_path, 'rb')
-  ls_f = base64.b64encode(f.read())
-  f.close()
-  image_byte = bytes.decode(ls_f)
+  image_data = open(region_path, 'rb').read();
 
+  keyword = baiduocr.get_text_from_image(image_data, config.app_id, config.app_key, config.app_secret)
 
-  url = 'http://text.aliapi.hanvon.com/rt/ws/v1/ocr/text/recg?code=74e51a88-41ec-413e-b162-bd031fe0407e'
-
-  data = {"uid": "118.12.0.12", "lang": "chns", "color": "color",
-          'image': image_byte}
-
-  headers = {"Content-Type": "application/json; charset=UTF-8",
-             "Accept-Content-Type": "application/octet-stream",
-             "Authorization": "APPCODE " + config.appcode
-             }
-  res = requests.post(url, data=json.dumps(data), headers=headers)
-  content = res.text
-  if res.status_code != 200:
-    print("orc识别错误")
-    break
-
-  json_data = json.loads(content)['textResult']
-  keyword = str(json_data).strip().rstrip().lstrip().replace("\r", "").replace("\n","").replace(" ","")
   print("OCR识别内容: " + keyword)
 
   driver.find_element_by_id('kw').send_keys(Keys.CONTROL, 'a')

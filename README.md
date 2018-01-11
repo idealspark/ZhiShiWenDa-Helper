@@ -10,6 +10,7 @@
 2. **安卓手机一部 电脑一台**
 3. **python3.6**
 
+
 ### 使用步骤
 1. 安装python3.6 [python下载地址](https://www.python.org/downloads/)
 2. 在本项目根路径下执行 pip install -r requirements.txt

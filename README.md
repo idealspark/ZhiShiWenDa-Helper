@@ -1,7 +1,7 @@
 
 # 百万英雄/冲顶大会/芝士超人 答题助手 瞬间打开百度
 
-## 原理
+## 原理 
  每当题目出来的时候按下回车键即可瞬间打开百度,主要支持Android系统
  主要原理使用Android adb进行截图,截取题目,使用汉王OCR识别图片中的文字,在使用selenium
  打开百度.汉王云ocrAPI，参考了 [wuditken/MillionHeroes](https://github.com/wuditken/MillionHeroes) 项目
